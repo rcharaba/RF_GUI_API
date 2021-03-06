@@ -1,0 +1,11 @@
+venv
+.idea
+report.html
+debug.log
+geckodriver.log
+log.html
+output.xml
+*.png
+.pabotsuitenames
+__pycache__
+workspace.xml

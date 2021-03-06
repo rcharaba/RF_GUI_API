@@ -1,6 +1,6 @@
 *** Variables ***
 #************************ Common Variables *****************************
-${API_KEY}     8e9f65eb-04f2-40ea-aba8-03c996f768da
+${API_KEY}     your_key
 ${API_HOST}    https://api.thecatapi.com
 ${API_ALIAS}   mycat
 
