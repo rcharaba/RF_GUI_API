@@ -24,5 +24,11 @@ GET Cat Breed "${breed}" Propertie "${propertie}"
     ${json_cat_propertie}    get value from json    ${MY_CAT_BREED.json()}    $..${propertie}
     Log    Cat breed "${propertie}" info : ${json_cat_propertie[0]}    console=True
 
-
+GET Cat Breed List By Name
+    &{PARAMS}        Create Dictionary    attach_breed=0
+    ${BREED_LIST}    GET On Session       alias=${API_ALIAS}    url=${PATH_BREED_LIST}    params=${PARAMS}
+    Check Response Status Code    ${BREED_LIST}
+    ${json_breed_list}    get value from json    ${BREED_LIST.json()}    $..name
+    ${total_breed_list}   Get length   ${json_breed_list}
+    Log    TOTAL: ${total_breed_list}, Cat breed info: ${json_breed_list}    console=True
 
