@@ -2,7 +2,7 @@
 Resource    ..${/}..${/}..${/}Resources${/}API${/}API_Base_Resources.robot
 Resource    ..${/}..${/}..${/}Resources${/}API${/}API_Breed_Endpoint.robot
 
-Library    DataDriver    ..${/}..${/}..${/}TestData${/}API${/}BreedNames.csv
+Library    DataDriver    ..${/}..${/}..${/}TestData${/}API${/}Breed_Names.csv
 
 Suite Setup       Create API Session
 Suite Teardown    Delete All Sessions

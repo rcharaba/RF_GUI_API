@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     To see all breed properties: https://docs.thecatapi.com/api-reference/breeds/breeds-search
+Documentation     To see all breed properties: https://docs.thecatapi.com/api-reference/breeds
 Library           RequestsLibrary
 Library           JSONLibrary
 Library           Collections
@@ -31,4 +31,3 @@ GET Cat Breed List By Name
     ${json_breed_list}    get value from json    ${BREED_LIST.json()}    $..name
     ${total_breed_list}   Get length   ${json_breed_list}
     Log    TOTAL: ${total_breed_list}, Cat breed info: ${json_breed_list}    console=True
-
