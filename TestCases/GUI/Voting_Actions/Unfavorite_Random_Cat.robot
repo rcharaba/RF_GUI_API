@@ -7,5 +7,6 @@ Suite Setup       Open CAT Page
 Suite Teardown    Close CAT Page
 
 *** Test Cases ***
-Voting In One Random Cat Once
-    Voting In Random Cat
+Unfavoriting One Random Cat
+    Run Keyword And Continue On Failure    Favorite One Random Cat
+    Unfavorite One Random Cat

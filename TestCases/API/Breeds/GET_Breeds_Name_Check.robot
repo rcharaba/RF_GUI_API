@@ -1,4 +1,5 @@
 *** Settings ***
+Force Tags    api
 Resource    ..${/}..${/}..${/}Resources${/}API${/}API_Base_Resources.robot
 Resource    ..${/}..${/}..${/}Resources${/}API${/}API_Breed_Endpoint.robot
 

@@ -7,5 +7,5 @@ Suite Setup       Open CAT Page
 Suite Teardown    Close CAT Page
 
 *** Test Cases ***
-Voting In One Random Cat Once
-    Voting In Random Cat
+Favoriting One Random Cat
+    Favorite One Random Cat
