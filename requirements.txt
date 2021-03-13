@@ -1,0 +1,14 @@
+selenium
+requests
+paramiko
+pandas
+xlrd
+robotframework==3.2.2
+robotframework-seleniumlibrary
+robotframework-datadriver
+robotframework-pabot
+robotframework-requests
+robotframework-sshlibrary
+robotframework-jsonlibrary
+xml
+lxml

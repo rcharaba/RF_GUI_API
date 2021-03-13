@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     To see all breed properties: https://docs.thecatapi.com/api-reference/breeds
+Documentation     Main setup keywords
 Library           SeleniumLibrary
 Resource          ..${/}..${/}PageObjects${/}Main_Page.robot
 Resource          Setup_Variables.robot

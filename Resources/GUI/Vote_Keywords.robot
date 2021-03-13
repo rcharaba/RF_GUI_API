@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     To see all breed properties: https://docs.thecatapi.com/api-reference/breeds
+Documentation     Reusable "Vote" page keywords
 Library           SeleniumLibrary
 Library           Collections
 Library           String
