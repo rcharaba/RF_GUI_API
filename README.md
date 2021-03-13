@@ -6,7 +6,7 @@ I get the coding best pratices from: [HowToWriteGoodTestCases](https://github.co
 ### Prerequisites
 
 1. Install the latest [python3](https://www.python.org/downloads/windows/) version:
-2. Add python to PATH
+2. Add Python to PATH
 3. Intall Python requiriments:
 ```
 pip install -r requirements.txt
@@ -15,9 +15,12 @@ pip install -r requirements.txt
 ```
 /python3x/scripts
 ```
-5. (Optitional) Instal Pycharm IDE
+5. (Optitional) Install [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows) IDE
 
-### Runing your first Test Case
+### Project Structure
+... under construction
+
+### Running your first Test Case
 ... under construction
 
 ## Authors
