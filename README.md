@@ -17,20 +17,21 @@ pip install -r requirements.txt
 5. (Optitional) Install [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows) IDE
 
 ### Project Structure
-      PageObjects/    # GUI locators files
-      Resources/      # A common style in Robot Framework to place high level and reusable keyword implementations
-      | API/          # API Keywords
-      | GUI/          # GUI Keywrods
-      |
-      TestCases/      # Test Cases files
-      | API/          # API Test Cases organized in folder for each methode
-      | GUI/          # GUI Test Cases organized in folder for each user action
-      |
-      TestData/       # Source data for Test Cases files
-      | API/          # Input data for API Test Cases
-      | GUI/          # Input data for GUI Test Cases
-      |
-
+```
+PageObjects/    # GUI locators files
+Resources/      # A common style in Robot Framework to place high level and reusable keyword implementations
+| API/          # API Keywords
+| GUI/          # GUI Keywrods
+|
+TestCases/      # Test Cases files
+| API/          # API Test Cases organized in folder for each methode
+| GUI/          # GUI Test Cases organized in folder for each user action
+|
+TestData/       # Source data for Test Cases files
+| API/          # Input data for API Test Cases
+| GUI/          # Input data for GUI Test Cases
+|
+```
 ### Running your first Test Case
 ... under construction
 
