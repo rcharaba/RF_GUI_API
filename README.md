@@ -32,6 +32,30 @@ TestData/       # Source data for Test Cases files
 | GUI/          # Input data for GUI Test Cases
 |
 ```
+### Target Test Application
+
+The target WEB application site: https://thecatapi.com/
+
+Documentation for API: https://docs.thecatapi.com/api-reference/
+
+**NOTE**: To run your API Test Cases you should get your API Key (for free): https://docs.thecatapi.com/authentication 
+
+Once you get your API Key, just replace in:
+```
+Resources/      
+| API/
+| API_Variables.robot
+|
+```
+```
+*** Variables ***
+#************************ Common Variables *****************************
+${API_KEY}     your_key
+${USER_ID}     your_user
+${API_HOST}    https://api.thecatapi.com
+${API_ALIAS}   mycat
+```
+
 ### Running your first Test Case
 ... under construction
 
