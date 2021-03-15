@@ -4,9 +4,9 @@ This project is a hybrid project (GUI+API) using Robot Framework coding best pra
 
 In my real projects, I always try to follow 3 cornerstones:
 
-- reusability
-- maintainability
-- scalability
+- Reusability
+- Maintainability
+- Scalability
 
 In this project, all folders, files, keywords, variables, and test cases have some meaning.
 When you are working in large teams duplicate work could be a problem, that way creating a clear project structure with folders/files and reusable keywords, pushing all new development in a git environment, recommending people to do code review this issue will be minimized. In this demo project, I'm not using suite files, I'm creating one file for TC, this is useful because when you have a large number of commits or changes different files can help to avoid merge conflict.
