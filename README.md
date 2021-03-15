@@ -1,6 +1,6 @@
 # Robot Framework GUI + API Testing
 
-This project is a hybrid project (GUI+API) using Robot Framework coding best practices, simulating a real project. I got the coding best practices from: [HowToWriteGoodTestCases](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
+This project is a hybrid project (GUI+API) using Robot Framework coding best practices, simulating a real project. I've learned valuable best practices from: [HowToWriteGoodTestCases](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
 
 ### Prerequisites
 
