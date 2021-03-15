@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 /python3x/scripts
 ```
-5. (Optitional) Install [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows) IDE
+5. (Optional) Install [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows) IDE
 
 ### Project Structure
 ```
