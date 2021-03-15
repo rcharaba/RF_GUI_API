@@ -2,6 +2,19 @@
 
 This project is a hybrid project (GUI+API) using Robot Framework coding best practices, simulating a real project. I've learned valuable best practices from: [HowToWriteGoodTestCases](https://github.com/robotframework/HowToWriteGoodTestCases/blob/master/HowToWriteGoodTestCases.rst)
 
+In my real projects, I always try to follow 3 cornerstones:
+
+- reusability
+- maintainability
+- scalability
+
+In this project, all folders, files, keywords, variables, and test cases have some meaning.
+When you are working in large teams duplicate work could be a problem, that way creating a clear project structure with folders/files and reusable keywords, pushing all new development in a git environment, recommending people to do code review this issue will be minimized. In this demo project, I'm not using suite files, I'm creating one file for TC, this is useful because when you have a large number of commits or changes different files can help to avoid merge conflict.
+
+To keep maintainability, your keywords, variables, and test cases should be clear and user-oriented (BDD and ATDD technics). All low-level implementation should be abstracted in other keywords or in some cases should be moved to python scripts and imported as a library in Robot.
+
+If you follow the 2 first cornerstones you will be able to scale your project and scale this to a CI/CD approach using Jenkins or Gitlab to do continuous testing helping the development team to always get the latest software status and the most important, trusting in the results.
+
 ### Prerequisites
 
 1. Install the latest [python3](https://www.python.org/downloads/windows/) version:
@@ -71,7 +84,6 @@ Another example, if you'd like to call both (API+GUI) test cases:
 \robot_projects\RF_GUI_API\TestLog>robot -i api -i gui ..\TestCases
 ```
 The reason to call your test locally inside folder *Test Log/* is to keep all test execution logs in the same place. To know more about test logs click [here](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#output-directory)
-
 
 ## Authors
 
