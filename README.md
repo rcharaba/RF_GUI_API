@@ -13,7 +13,7 @@ When you are working in large teams duplicate work could be a problem, that way 
 
 To keep maintainability, your keywords, variables, and test cases should be clear and user-oriented (BDD and ATDD technics). All low-level implementation should be abstracted in other keywords or in some cases should be moved to python scripts and imported as a library in Robot.
 
-If you follow the 2 first cornerstones you will be able to scale your project and scale this to a CI/CD approach using Jenkins or Gitlab to do continuous testing helping the development team to always get the latest software status and the most important, trusting in the results.
+If you follow the 2 first cornerstones you will be able to scale your project and scale this to a CI/CD approach using Jenkins or Gitlab to do continuous testing helping the development team to always get the latest software status and the most important, trusting the results.
 
 ### Prerequisites
 
