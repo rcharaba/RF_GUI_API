@@ -24,7 +24,7 @@ Resources/      # A common style in Robot Framework to place high level and reus
 | GUI/          # GUI Keywrods
 |
 TestCases/      # Test Cases files
-| API/          # API Test Cases organized in folder for each methode
+| API/          # API Test Cases organized in folder for each REST method
 | GUI/          # GUI Test Cases organized in folder for each user action
 |
 TestData/       # Source data for Test Cases files
