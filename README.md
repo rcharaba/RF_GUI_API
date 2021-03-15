@@ -9,7 +9,7 @@ In my real projects, I always try to follow 3 cornerstones:
 - Scalability
 
 In this project, all folders, files, keywords, variables, and test cases have some meaning.
-When you are working in large teams duplicate work could be a problem, that way creating a clear project structure with folders/files and reusable keywords, pushing all new development in a git environment, recommending people to do code review this issue will be minimized. In this demo project, I'm not using suite files, I'm creating one file for TC, this is useful because when you have a large number of commits or changes different files can help to avoid merge conflict.
+When you are working in large teams duplicated work could be a problem, that way creating a clear project structure with folders/files and reusable keywords, pushing all new development in a GIT environment, recommending people to do code review this issue will be minimized. In this demo project, I'm not using suite files, I'm creating one file for TC, this is useful because when you have a large number of commits or changes, different files can help to avoid merge conflict.
 
 To keep maintainability, your keywords, variables, and test cases should be clear and user-oriented (BDD and ATDD technics). All low-level implementation should be abstracted in other keywords or in some cases should be moved to python scripts and imported as a library in Robot.
 
