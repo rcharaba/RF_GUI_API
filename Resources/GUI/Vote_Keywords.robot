@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation     Reusable "Vote" page keywords
-Library           SeleniumLibrary
+Library           SeleniumLibrary    plugins=SeleniumTestability;True;30 Seconds;True
 Library           Collections
 Library           String
 Resource          ..${/}..${/}PageObjects${/}Tab_Vote.robot

@@ -9,7 +9,6 @@ Resource          Setup_Variables.robot
 Set Selenium Options
     Set Selenium Speed              ${DELAY}
     Set Selenium Timeout            ${TIMEOUT}
-    Set Selenium Implicit Wait      ${WAIT}
 
 Open CAT Page
     Open Browser                    ${SERVER_URL}    ${BROWSER}
